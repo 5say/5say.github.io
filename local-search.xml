@@ -4,25 +4,79 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2023/05/28/hello-world/"/>
-    <url>/2023/05/28/hello-world/</url>
+    <title>C++基本语法</title>
+    <link href="/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.3%20c++%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <url>/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.3%20c++%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>首先明确一下我使用的电脑环境以及使用的软件：</strong></p><ul><li>Windows 10</li><li>Visual Studio 2022 community</li></ul><p>毕竟只有一个统一的环境才能够出来统一的结果，请避免由于环境因素导致的BUG，否则真的很恶心</p><h1 id="第一个C-程序"><a href="#第一个C-程序" class="headerlink" title="第一个C++程序"></a>第一个C++程序</h1><p>众所周知，程序员的第一个代码都是从hello world开始的，所以我们的第一个C++程序就尊重一下传统吧。</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span><br><span class="hljs-function"></span>&#123;<br>cout &lt;&lt; <span class="hljs-string">&quot;hello world&quot;</span>;<br><span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p><strong>重点解析：</strong></p><ol><li>“#include”的作用是什么？</li></ol><p>#include叫做文件包含命令，用来引入对应的头文件</p><ol start="2"><li>namespace是干嘛的？</li><li>为什么叫做main()?</li><li>return可以省略吗？</li></ol>]]></content>
     
     
     <categories>
       
-      <category>Diary</category>
+      <category>C++</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>PS3</tag>
+      <tag>C++</tag>
       
-      <tag>Games</tag>
+      <tag>基础</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>C++环境设置与开发工具整理</title>
+    <link href="/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.2%20c++%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%80%89%E6%8B%A9/"/>
+    <url>/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.2%20c++%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E9%80%89%E6%8B%A9/</url>
+    
+    <content type="html"><![CDATA[<p>tips: 由于软件安装过程网络上一搜一大堆，在这里就不过多赘述，只提供安装包和一份参考文案，如有更多需要，请评论留言或自行百度。</p><span id="more"></span><h1 id="Windows-用户"><a href="#Windows-用户" class="headerlink" title="Windows 用户"></a>Windows 用户</h1><h2 id="1-使用-DEV-CPP-进行开发"><a href="#1-使用-DEV-CPP-进行开发" class="headerlink" title="1.使用 DEV-CPP 进行开发"></a>1.使用 DEV-CPP 进行开发</h2><p><strong>优点：</strong></p><ul><li>无需手动配置运行环境，直接下载安装即可运行C++代码</li><li>足够轻量级，操作界面干净<br><strong>缺点：</strong></li><li>功能太过简单，简单写写demo还行，复杂的项目搞起来比较耗费心力</li></ul><ol><li>DEV-CPP 蓝奏云下载<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="[DEV-CPP 蓝奏云下载](https://wwgb.lanzout.com/iUUBn0pz26xc)">[1]</span></a></sup></li><li>如何安装DEV-CPP<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="[如何在Windows上安装 Dev-Cpp](https://blog.csdn.net/qq_41594445/article/details/102941354)">[4]</span></a></sup></li></ol><h2 id="2-使用-Code-Blocks-进行开发"><a href="#2-使用-Code-Blocks-进行开发" class="headerlink" title="2.使用 Code::Blocks 进行开发"></a>2.使用 Code::Blocks 进行开发</h2><p><strong>优点：</strong></p><ul><li>足够轻量级，操作界面干净</li><li>相对于Dev-cpp来说功能更加完善，对程序员更加友好<br><strong>缺点：</strong></li><li>需要自己配置cpp运行环境</li></ul><ol><li><p>安装MinGW-w64</p><blockquote><p>The heart of the Mingw-w64 project is headers and support libraries to run the output of GCC on Windows. Since Mingw-w64 is neither the home of GCC nor of binutils –<a href="https://www.mingw-w64.org/downloads/">MinGV-w64</a></p></blockquote><p><strong>MinGW-w64:是一个免费的开源 C 库，适用于 Windows 32 位和 64 位平台。</strong></p><ol><li>MinGW-w64 官网下载<sup id="fnref:7" class="footnote-ref"><a href="#fn:7" rel="footnote"><span class="hint--top hint--rounded" aria-label="[MinGW-w64 官网下载](https://winlibs.com/)">[7]</span></a></sup></li><li>MinGW-w64 蓝奏云下载<sup id="fnref:8" class="footnote-ref"><a href="#fn:8" rel="footnote"><span class="hint--top hint--rounded" aria-label="[MinGW-w64 32位 蓝奏云下载](https://wwgb.lanzout.com/i8rnr0pz88sf)">[8]</span></a></sup>，由于蓝奏云限制，暂时只提供32位安装包（64位上传要钱，哈哈）</li><li>MinGW-w64 安装方法</li></ol></li><li><p>安装 Code::Blocks</p><ol><li>Code::Blocks蓝奏云安装包<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Code::Blocks 蓝奏云安装包](https://wwgb.lanzout.com/i3p4L0pz260j)">[2]</span></a></sup></li><li>Code::Blocks官网下载<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Code::Blocks 官网下载](https://www.codeblocks.org/downloads/binaries/)">[3]</span></a></sup></li><li>Code::Blocks 安装说明<sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="[如何在Windows上安装 Code::Blocks](https://www.jianshu.com/p/685f5f1e247f)">[5]</span></a></sup></li></ol></li></ol><h2 id="3-使用VScode进行开发"><a href="#3-使用VScode进行开发" class="headerlink" title="3.使用VScode进行开发"></a>3.使用VScode进行开发</h2><p><strong>优点：</strong></p><ul><li>插件丰富，自己可以根据需求来增加插件</li><li>开发效率高</li><li>足够轻量级，操作界面干净<br><strong>缺点：</strong></li><li>需要自己配置cpp运行环境</li></ul><ol><li>安装MinGW-w64（参考2.1 安装MinGW-w64）</li><li>安装VScode<ol><li>官网下载<sup id="fnref:10" class="footnote-ref"><a href="#fn:10" rel="footnote"><span class="hint--top hint--rounded" aria-label="[官网下载 VScode](https://code.visualstudio.com/Download)">[10]</span></a></sup></li><li>蓝奏云下载<sup id="fnref:11" class="footnote-ref"><a href="#fn:11" rel="footnote"><span class="hint--top hint--rounded" aria-label="[蓝奏云下载 VScode](https://wwgb.lanzout.com/iL14b0q024tc)">[11]</span></a></sup></li><li>VScode安装说明书<sup id="fnref:12" class="footnote-ref"><a href="#fn:12" rel="footnote"><span class="hint--top hint--rounded" aria-label="[VScode 安装说明](https://zhuanlan.zhihu.com/p/87864677)">[12]</span></a></sup></li></ol></li></ol><h2 id="4-使用Visual-Studio进行开发"><a href="#4-使用Visual-Studio进行开发" class="headerlink" title="4.使用Visual Studio进行开发"></a>4.使用Visual Studio进行开发</h2><p><strong>优点：</strong></p><ul><li>开发效率高</li><li>大型项目开发起来更加方便</li><li>支持git,可多人协作开发</li><li>无需自己配置cpp运行环境，编译器会自动安装所需环境<br><strong>缺点：</strong></li><li>太过重量级，比较吃电脑配置</li><li>软件界面复杂，需要一定软件操作学习成本</li></ul><ol><li>官网下载<sup id="fnref:13" class="footnote-ref"><a href="#fn:13" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Visual Studio 官网下载](https://visualstudio.microsoft.com/zh-hans/downloads/)">[13]</span></a></sup></li></ol><h1 id="Linux-用户"><a href="#Linux-用户" class="headerlink" title="Linux 用户"></a>Linux 用户</h1><p>待续。。。</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://wwgb.lanzout.com/iUUBn0pz26xc">DEV-CPP 蓝奏云下载</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://wwgb.lanzout.com/i3p4L0pz260j">Code::Blocks 蓝奏云安装包</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://www.codeblocks.org/downloads/binaries/">Code::Blocks 官网下载</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a href="https://blog.csdn.net/qq_41594445/article/details/102941354">如何在Windows上安装 Dev-Cpp</a><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span><a href="https://www.jianshu.com/p/685f5f1e247f">如何在Windows上安装 Code::Blocks</a><a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:6" class="footnote-text"><span><a href="">如何在Linux上安装 Code::Blocks</a><a href="#fnref:6" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:7" class="footnote-text"><span><a href="https://winlibs.com/">MinGW-w64 官网下载</a><a href="#fnref:7" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:8" class="footnote-text"><span><a href="https://wwgb.lanzout.com/i8rnr0pz88sf">MinGW-w64 32位 蓝奏云下载</a><a href="#fnref:8" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:9" class="footnote-text"><span><a href="https://linux.cn/article-13484-1.html">如何在Ubantu上安装 Code::Blocks</a><a href="#fnref:9" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:10" class="footnote-text"><span><a href="https://code.visualstudio.com/Download">官网下载 VScode</a><a href="#fnref:10" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:11" class="footnote-text"><span><a href="https://wwgb.lanzout.com/iL14b0q024tc">蓝奏云下载 VScode</a><a href="#fnref:11" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:12" class="footnote-text"><span><a href="https://zhuanlan.zhihu.com/p/87864677">VScode 安装说明</a><a href="#fnref:12" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:13" class="footnote-text"><span><a href="https://visualstudio.microsoft.com/zh-hans/downloads/">Visual Studio 官网下载</a><a href="#fnref:13" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>C++</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>基础</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>为什么选择使用C++</title>
+    <link href="/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.1%20c++%E7%AE%80%E4%BB%8B/"/>
+    <url>/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.1%20c++%E7%AE%80%E4%BB%8B/</url>
+    
+    <content type="html"><![CDATA[<p>任何一家追求软件和系统效率的公司，一定会采用C++开发！它的效率是其他语言无法媲美的。</p><span id="more"></span><h1 id="什么是C-？"><a href="#什么是C-？" class="headerlink" title="什么是C++？"></a>什么是C++？</h1><p>为了了解到为什么大型互联网公司都会采用C++进行软件和系统的开发，我们必须了解到什么是C++。</p><blockquote><p>C++ 是一种静态类型的、编译式的、通用的、大小写敏感的、不规则的编程语言，支持过程化编程、面向对象编程和泛型编程。 </p><p>C++ 被认为是一种中级语言，它综合了高级语言和低级语言的特点。</p><p>C++ 是由 Bjarne Stroustrup 于 1979 年在新泽西州美利山贝尔实验室开始设计开发的。C++ 进一步扩充和完善了 C 语言，最初命名为带类的C，后来在 1983 年更名为 C++。</p><p>C++ 是 C 的一个超集，事实上，任何合法的 C 程序都是合法的 C++ 程序。</p><p>注意：使用静态类型的编程语言是在编译时执行类型检查，而不是在运行时执行类型检查。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="[菜鸟教程](https://www.runoob.com/cplusplus/cpp-intro.html)">[1]</span></a></sup></p></blockquote><p>简单来说，C++是一种使用广泛，在编译时执行类型检查的扩展C语言。</p><h1 id="C-那么好用，都有哪些行业在用C-呢？"><a href="#C-那么好用，都有哪些行业在用C-呢？" class="headerlink" title="C++那么好用，都有哪些行业在用C++呢？"></a>C++那么好用，都有哪些行业在用C++呢？</h1><ol><li>游戏行业</li><li>金融领域</li><li>HPC（高效能运算）</li><li>服务器软件</li><li>实时系统</li><li>嵌入式系统</li><li>数据库开发</li></ol><p>从C++的使用领域来看，我们发现，凡是严格需要效率的复杂系统，C++几乎就是唯一的选择。</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://www.runoob.com/cplusplus/cpp-intro.html">菜鸟教程</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>C++</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>基础</tag>
       
     </tags>
     

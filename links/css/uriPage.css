@@ -1,0 +1,61 @@
+.links {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uri {
+    height: 70px;
+    width: 260px;
+    max-block-size: 100px;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.uri:hover {
+    height: 70px;
+    width: 260px;
+    max-block-size: 100px;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+
+.uri img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    float: none;
+    object-fit: contain;
+}
+
+.uri div {
+    float: right;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.text {
+    height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.description {
+    max-height: 2rem;
+    font-size: 0.85rem;
+    line-height: 1.2;
+    color: var(--sec-text-color);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #c0c0c0;
+}
