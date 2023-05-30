@@ -4,6 +4,123 @@
   
   
   <entry>
+    <title>记录一下博客迁移完成</title>
+    <link href="/2023/05/30/99_%E9%9A%8F%E7%AC%94/2023-05-30%20%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%88%90/"/>
+    <url>/2023/05/30/99_%E9%9A%8F%E7%AC%94/2023-05-30%20%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%88%90/</url>
+    
+    <content type="html"><![CDATA[<p>终于战胜了拖延症，将这个博客给搞出来了，先挑两篇以前写的文章迁移上来，后面再慢慢迁移吧，发个文章纪念一下博客上线</p><p><img src="/imgs/atta/2023-05-30%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%88%90.jpg" alt="加油"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>随笔</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>浅谈编程语言</title>
+    <link href="/2023/05/30/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/00.%E6%B5%85%E8%B0%88%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    <url>/2023/05/30/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/00.%E6%B5%85%E8%B0%88%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一、机器语言"><a href="#一、机器语言" class="headerlink" title="一、机器语言"></a>一、机器语言</h1><p>​机器语言是用二进制代码表示的计算机能直接识别和执行的一种<strong>机器指令的集合</strong>。计算机将之转变为一列高低电平，以使计算机的电子器件受到驱动，进行运算。</p><p>​    <strong>优点</strong>：</p><ol><li>灵活</li><li>直接执行、速度快</li></ol><p>​    <strong>缺点</strong>：</p><ol><li>细节操作大量而繁琐</li><li>程序可靠性差，开发周期长</li><li>开发成本高</li><li>可移植性、重用性、可读性差</li></ol><h1 id="二、汇编语言"><a href="#二、汇编语言" class="headerlink" title="二、汇编语言"></a>二、汇编语言</h1><p>​汇编语言（assembly language）是一种用于<a href="https://baike.baidu.com/item/%E7%94%B5%E5%AD%90%E8%AE%A1%E7%AE%97%E6%9C%BA/191373">电子计算机</a>、<a href="https://baike.baidu.com/item/%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/104320">微处理器</a>、<a href="https://baike.baidu.com/item/%E5%BE%AE%E6%8E%A7%E5%88%B6%E5%99%A8/6688343">微控制器</a>或其他可编程器件的低级语言，亦称为符号语言。汇编语言的另一个特点就是它所操作的对象不是具体的数据,而是寄存器或者存储器。<a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826?fr=aladdin">摘自 百度词条：汇编语言（面向机器的程序设计语言）</a></p><p>​汇编语言是直接面向处理器（Processor）的程序设计语言。处理器是在指令的控制下工作的，处理器可以识别的每一条指令称为机器指令。每一种处理器都有自己可以识别的一整套指令，称为<a href="https://baike.baidu.com/item/%E6%8C%87%E4%BB%A4%E9%9B%86">指令集</a>。处理器执行指令时，根据不同的指令采取不同的动作，完成不同的功能，既可以改变自己内部的工作状态，也能控制其它外围电路的工作状态。<a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826?fr=aladdin">摘自 百度词条：汇编语言（面向机器的程序设计语言）</a></p><p>​<strong>优点</strong>：</p><ol><li>可有效访问、控制计算机硬件。</li><li>占用内存少，执行速度快，执行效率高</li></ol><p>​<strong>缺点</strong>：</p><ol><li>通用性和可移植性差</li><li>相对于高级语言来说较为繁琐，易出错</li></ol><h1 id="三、高级语言"><a href="#三、高级语言" class="headerlink" title="三、高级语言"></a>三、高级语言</h1><h2 id="1-前端："><a href="#1-前端：" class="headerlink" title="1. 前端："></a>1. 前端：</h2><h3 id="HTML（超文本标记语言）"><a href="#HTML（超文本标记语言）" class="headerlink" title="HTML（超文本标记语言）"></a>HTML（超文本标记语言）</h3><p>​HTML是一种使用标记标签来描述网页的标记语言。</p><p>​<strong>优点</strong>：</p><ol><li>网络标准统一，呦W3C制定。</li><li>可跨平台，依托于浏览器</li><li>使用记事本便可以进行开发，HTML能直接运行</li></ol><p>​<strong>缺点</strong>：</p><ol><li>因为浏览器编程模型还是单进程单线程，所以无法支持多线程</li><li>安全性没有保障，容易泄露敏感数据。</li><li>浏览器的兼容性问题增加了开发难度</li><li>页面请求过多</li></ol><h3 id="css-层叠样式表"><a href="#css-层叠样式表" class="headerlink" title="css(层叠样式表)"></a>css(层叠样式表)</h3><p>​css解决了HTML开发中内容与表现分离的问题，极大提高工作效率</p><h3 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h3><p>​javascript是web的编程语言，是一种轻量级的可插入HTML页面的编程代码，可有所有的现代浏览器执行。更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。</p><p>​<strong>优点</strong>：</p><ol><li>减少网络数据传输</li><li>javascript可以方便的操纵HTML对象</li><li>支持分布式运算</li></ol><p>​<strong>缺点</strong>：</p><ol><li>各浏览器对javascript支持程度不同</li><li>“web安全性”对javascript一些功能牺牲</li></ol><p>参考资料：<a href="https://blog.csdn.net/system_err/article/details/76590524">JavaScript特点、优缺点及常用框架</a></p><h2 id="2-后端"><a href="#2-后端" class="headerlink" title="2.后端"></a>2.后端</h2><h3 id="C"><a href="#C" class="headerlink" title="C"></a>C</h3><p>​C 语言是一种通用的高级语言，最初是由丹尼斯·里奇在贝尔实验室为开发 UNIX 操作系统而设计的。UNIX 操作系统，C编译器，和几乎所有的 UNIX 应用程序都是用 C 语言编写的。由于各种原因，C 语言现在已经成为一种广泛使用的专业语言。</p><p>​C语言是一门面向过程的计算机编程语言，与C++、Java等面向对象编程语言有所不同。C语言的设计目标是提供一种能以简易的方式<a href="https://baike.baidu.com/item/%E7%BC%96%E8%AF%91/1258343">编译</a>、处理低级<a href="https://baike.baidu.com/item/%E5%AD%98%E5%82%A8%E5%99%A8/1583185">存储器</a>、仅产生少量的<a href="https://baike.baidu.com/item/%E6%9C%BA%E5%99%A8%E7%A0%81/86125">机器码</a>以及不需要任何运行环境支持便能运行的编程语言。C语言描述问题比汇编语言迅速，工作量小、可读性好，易于<a href="https://baike.baidu.com/item/%E8%B0%83%E8%AF%95">调试</a>、修改和移植，而<a href="https://baike.baidu.com/item/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/8863758">代码质量</a>与<a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826">汇编语言</a>相当。C语言一般只比<a href="https://baike.baidu.com/item/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/61826">汇编语言</a>代码生成的<a href="https://baike.baidu.com/item/%E7%9B%AE%E6%A0%87%E7%A8%8B%E5%BA%8F/8082041">目标程序</a>效率低10%～20%。因此，C语言可以编写系统软件。</p><p>​<a href="https://baike.baidu.com/item/c%E8%AF%AD%E8%A8%80/105958?fromtitle=%EF%BC%A3%E8%AF%AD%E8%A8%80&fromid=6873884#4_2">百度词条</a></p><p>​<strong>特点</strong>：</p><ol><li>易于学习，进行结构化编程</li><li>c语言所产生的代码运行速度与汇编语言编写的代码运行速度几乎一样</li><li>预编译处理使C语言更有弹性</li></ol><p>​<strong>优点</strong>：</p><ol><li>代码量小</li><li>生成目标代码质量高，运行速度快</li><li>功能强大</li><li>跨平台，可移植性强</li><li>使用指针，灵活性强</li><li>允许直接访问物理地址，对硬件进行操作</li></ol><p>​<strong>缺点</strong>：</p><ol><li>数据安全性有很大问题</li><li>语法限制不严格，映像程序安全性</li><li>指针太过灵活，初学难度有点大</li></ol><h3 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h3><p>​C++是C语言的继承，它既可以进行C语言的过程化程序设计，又可以进行以抽象数据类型为特点的基于对象的程序设计，还可以进行以继承和多态为特点的面向对象的程序设计。</p><p>​<strong>特点</strong>：</p><ol><li>支持数据封装和数据隐藏</li><li>支持集成和重用</li><li>面向对象</li><li>支持多态性</li><li>C++ 是一种静态类型的、编译式的、通用的、大小写敏感的、不规则的编程语言，支持过程化编程、面向对象编程和泛型编程。</li></ol><p>​<strong>优点</strong>：</p><ol><li>类型检查比c语言更加严格</li><li>增加了面向对象机制</li><li>增加了泛型编程机制</li><li>增加了函数重载和运算符重载</li><li>异常处理</li><li>提供了标准库STL</li></ol><p>​<strong>缺点：</strong></p><ol><li>没有垃圾回收机制，可能引起内存泄漏</li><li>内容较多较难，学习困难</li></ol><h3 id="java"><a href="#java" class="headerlink" title="java"></a>java</h3><p>​<strong>特性</strong>：</p><ol><li>纯面向对象</li><li>支持分布式</li><li>跨平台，移植性强</li><li>是一门编译性语言</li><li>支持多线程，高性能</li></ol><p>​<strong>优点</strong>：</p><ol><li>面向对象</li><li>稳健、安全、可移植、高性能</li><li>跨平台</li><li>编译型静态语言</li></ol><p>​<strong>缺点</strong>：</p><ol><li>编译速度慢</li></ol><h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><p>​<strong>特性</strong>：</p><ol><li>解释性语言</li><li>拥有丰富的库</li><li>跨平台</li><li>可移植、可扩展</li><li>支持GUI编程</li><li>可嵌入</li></ol><p><strong>优点</strong>：</p><ol><li>简单，易学</li><li>免费，开源</li><li>可移植性强</li><li>属于解释性的一门动态语言</li><li>面向对象</li><li>拥有丰富的库</li><li>强制性缩进代码使得代码规范</li></ol><p><strong>缺点</strong>：</p><ol><li>运行速度慢</li><li>国内市场小</li><li>中文资料匮乏</li></ol><h4 id="go"><a href="#go" class="headerlink" title="go"></a>go</h4><p>​go语言被设计成一门应用于搭载web服务器，存储集群或巨型中央服务器的系统编程语言，在高性能分布式系统领域拥有着极其高效的开发效率</p><p>​<strong>特点</strong>：</p><ol><li>简洁，快速，安全</li><li>自动垃圾回收</li><li>函数多返回值</li><li>并发编程</li><li>反射</li><li>语言交互</li><li>跨平台</li><li>开源</li><li>编译型静态语言</li></ol><p>​<strong>优点</strong>：</p><ol><li>性能优越，go比python快30倍，比java快将近一倍</li><li>编译时间非常快</li><li>go编写简单，易于学习</li><li>对 gPRC 和 protocol Buffers 具有一流支持</li><li>GOFMT，强制代码格式</li><li>天生支持并发编程</li><li>强大的标准库</li><li>接近c的运行效率，接近php的开发效率</li></ol><p><strong>缺点</strong>：</p><ol><li>没有主要框架</li><li>错误处理机制太原始</li><li>垃圾回收器不完善</li><li>语法格式要求太过严格，禁止有未使用的变量和多余的import</li><li>对象没有构造函数和析构函数</li><li>技术比较年轻，有待后续发展</li></ol><p>参考资料：<a href="https://www.cnblogs.com/timxgb/p/8728912.html">Go语言的9大优势和3大缺点,　GO语言最初的定位就是互联网时代的C语言,　我为什么放弃Go语言</a></p><h4 id="php超文本预处理器"><a href="#php超文本预处理器" class="headerlink" title="php超文本预处理器"></a>php超文本预处理器</h4><p>​php是一种通用开源脚本语言，语法吸收了c语言、java和perl的特点，利于学习。</p><p>​<strong>特性</strong>：</p><ol><li>独特的语法：混合了c、java\perl以及php自创的新的语法</li><li>与其他编程语言相比，更快速的执行动态网页</li><li>php支持几乎所有流行的数据库以及操作系统</li><li>可以用c、c++进行程序扩展</li></ol><p><strong>优点</strong>：</p><ol><li>php是一个免费开源语言</li><li>开发快，运行快，语法简单，方便学习</li><li>跨平台，效率高</li><li>具有很多成熟框架</li><li>有成熟社区支持php的开发</li></ol><p><strong>缺点</strong>：</p><ol><li>php是个单进程的程序，不支持多线程</li><li>只支持做web开发，不方便做.exe问件、桌面应用程序、手机程序</li><li>不适合做爬虫、自动运行脚本</li><li>后期维护比较困难，后期提速空间局限性大</li></ol><p><a href="https://www.cnblogs.com/ghjbk/p/6829307.html">推荐文章： 浅谈php的优缺点</a></p><h4 id="Ruby"><a href="#Ruby" class="headerlink" title="Ruby"></a>Ruby</h4><p>​Ruby是一种纯粹的面向对象编程语言。</p><p>​<strong>特点：</strong></p><ol><li>完全面向对象，连基本数据类型也是对象</li><li>Ruby的变量可以保存任何类型的数据</li><li>任何东西都有值</li><li>可以做到不需要注释就可以读懂</li></ol><p><strong>优点：</strong></p><ol><li>语法简单</li><li>操作符重载</li><li>有着很高的开发效率</li><li>代码量很少</li><li>方便测试</li><li>拥有原生的数据结构，学习成本较低</li></ol><p><strong>缺点：</strong></p><ol><li>运行效率太低</li><li>BUG难于发现，许多错误都是运行时才会发现</li></ol><h3 id="JSP"><a href="#JSP" class="headerlink" title="JSP"></a>JSP</h3><p>​JSP全称Java Server Pages，是一种动态网页开发技术。它使用JSP标签在HTML网页中插入Java代码。</p><p>​<strong>特点：</strong></p><ol><li>JSP可以直接在HTML网页中动态嵌入元素</li><li>JSP 基于Java Servlet API，因此，JSP拥有各种强大的企业级Java API，包括JDBC，JNDI，EJB，JAXP等等。</li><li>JSP页面可以与处理业务逻辑的 Servlet 一起使用，这种模式被Java servlet 模板引擎所支持。</li></ol><p><strong>优点：</strong></p><ol><li>一次编写，到处运行。除了系统之外，代码不用做任何更改。</li><li>跨平台，支持多种网页格式，jsp标签可扩展性</li><li>强大的可伸缩性。从只有一个小的Jar文件就可以运行Servlet&#x2F;JSP，到由多台服务器进行集群和负载均衡，到多台Application进行事务处理，消息处理，一台服务器到无数台服务器，Java显示了一个巨大的生命力。</li><li>具有非常多的免费优秀的开发工具，并且可以顺利的运行于多平台</li><li>支持服务器端组件</li></ol><p><strong>缺点：</strong></p><ol><li>增加产品的复杂性</li><li>java的高效率运行需要占用大量的内存和硬盘空间</li><li>调试困难</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>怎样获得一个好玩的个人博客</title>
+    <link href="/2023/05/30/02_%E8%AE%A1%E7%AE%97%E6%9C%BA/05_%E6%90%9E%E5%9F%BA%E6%8A%80%E5%B7%A7/1.%E6%80%8E%E6%A0%B7%E8%8E%B7%E5%BE%97%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%8E%A9%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/05/30/02_%E8%AE%A1%E7%AE%97%E6%9C%BA/05_%E6%90%9E%E5%9F%BA%E6%8A%80%E5%B7%A7/1.%E6%80%8E%E6%A0%B7%E8%8E%B7%E5%BE%97%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%8E%A9%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<p>如何在win10上利用hexo和github部署一个属于自己的博客呢？这件事情其实不难，大概分为三个部分：</p><ul><li>配置环境</li><li>搭建博客</li><li>同步到github</li></ul><span id="more"></span><h1 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a>一、配置环境</h1><p>首先介绍我们要使用的两个工具：<a href="https://hexo.io/zh-cn/index.html">hexo</a> 和 <a href="https://github.com/">github</a></p><h2 id="1-hexo：一个免费的快速、简洁且高效的博客框架"><a href="#1-hexo：一个免费的快速、简洁且高效的博客框架" class="headerlink" title="1. hexo：一个免费的快速、简洁且高效的博客框架"></a>1. hexo：一个免费的快速、简洁且高效的博客框架</h2><p>由于hexo使用的技术依赖于 <a href="https://nodejs.org/en">Node.js</a>，所以我们在使用hexo之前需要先在操作系统上安装Node.js。</p><p>根据 hexo 官网提示，hexo 建议用户一直使用最新版本的 hexo 和 Node.js。所以我们可以放心大胆安装最新版本的Node.js</p><h2 id="2-github：代码托管平台"><a href="#2-github：代码托管平台" class="headerlink" title="2. github：代码托管平台"></a>2. github：代码托管平台</h2><p>github 是全球最大的代码托管平台，但由于服务器在国外以及某些网络因素，导致我们在浏览器上访问时会出现偶尔访问不到的情况，这属于正常现象，具体解决方案可以参考<a href="https://zhuanlan.zhihu.com/p/358183268">访问github的小技巧</a>来对自己的电脑进行简单的一些配置，从而可以顺利访问。</p><p>我们使用github管理自己的代码时需要将本地的代码同步到github的服务器上，所以在这里我们需要使用一个工具：<a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git">git</a>。</p><h3 id="git"><a href="#git" class="headerlink" title="git"></a>git</h3><p>Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p><p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p><p>Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。</p><p>至于git的使用教程可以参考：<a href="https://www.runoob.com/git/git-tutorial.html">菜鸟教程 - git</a></p><p>以上工具安装包均可在官网免费下载。</p><p>测试是否安装完成，在命令行分别输入<code>node -v</code>和<code>git --version</code>能够显示 node.js 和 git 的版本号，即为安装成功。（此处一路next即可） </p><h1 id="二、搭建博客"><a href="#二、搭建博客" class="headerlink" title="二、搭建博客"></a>二、搭建博客</h1><ol><li>在自己的文件夹中创建一个放置自己博客的文件夹，然后在创建的文件夹中右击鼠标，从中找到<code>Git Bash Here</code>选项，打开 git 窗口。</li><li>在 git 窗口中输入<code>npm install hexo -g</code>开始安装hexo。</li><li>安装完成后输入<code>hexo -v</code>查看hexo版本号，确认是否安装完成。</li><li>输入<code>hexo init</code>初始化存放博客的文件夹。</li><li>文件夹初始化完成后，输入<code>npm install</code>安装所需要的组件.</li><li>在git窗口中输入<code>hexo g</code>将文件夹中文件进行编译。</li><li>输入<code>hexo s</code>打开本地服务器，此时便可以通过访问本地服务器来访问我们的博客啦！（打开本地服务器后，打开浏览器，输入<code>http:localhost:4000</code>即可访问博客）</li></ol><h1 id="三、将博客同步到github上"><a href="#三、将博客同步到github上" class="headerlink" title="三、将博客同步到github上"></a>三、将博客同步到github上</h1><ol><li><p>打开Git Bash Here</p></li><li><p>配置name 和 email<br>输入<code>git config --global user.name&quot;yourname&quot;</code>设置Git的用户名<br>输入<code>git config --global user.email&quot;youremail&quot;</code>设置Git的邮箱</p></li><li><p>生成密钥</p><ul><li>在Git Bash Here中输入<code>cd ~/.ssh</code>检查是否有.ssh的文件夹<ul><li>如果有.ssh文件夹,输入<code>ls</code>查看文件夹下的内容</li><li>如果没有.ssh文件夹，输入<code>ssh-keygen -t rsa -C &quot;yourEmail&quot;</code>连续输入三个回车，生成密钥（密钥的存放路径是：C:\Users\Administrator.ssh）</li></ul></li><li>输入<code>eval &quot;$(ssh-agent -s)&quot;</code>，添加密钥到ssh-agent</li><li>再输入<code>ssh-add ~/.ssh/id_rsa</code>，添加生成的SSH key到ssh-agent</li></ul></li><li><p>注册<a href="https://github.com/">github</a>账户</p></li><li><p>在github上创建一个以<code>yourname.github.io</code>命名的仓库，创建时使用默认选项即可</p></li><li><p>添加密钥</p><ul><li><p>登陆github，点击右上角头向下的setting —&gt; SSH and GPG keys  —&gt; SSH keys</p></li><li><p>新建一个SSH key 将 C:\Users\Administrator.ssh 下的 id_rsa.pub文件里的内容复制上去.</p></li><li><p>输入<code>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a></code>，测试添加ssh是否成功。如果看到Hi后面是你的用户名，就说明成功了</p></li><li><p>配置Deployment<br>在你搭建博客的文件夹中找到<code>_config.yml</code>文件，修改<code>repo</code>值（在末尾）</p><pre><code class="hljs">  deploy:     type: git    repository: git@github.com:yourname/yourname.github.io.git    branch: master</code></pre>  <p><strong>注意：每一个<code>:</code>后面都有一个空格</strong></p></li></ul></li><li><p>将本地的博客上传到github上</p><ul><li>在部署博客的文件夹下打开<code>Git Bash Here</code> 输入<code>hexo g</code>编译文件</li><li>输入<code>hexo s</code>打开本地服务器，在本地预览效果 </li><li>输入<code>hexod</code>将博客上传到github上（可能需要等几分钟才能够在网页上看到更新后的效果）</li></ul></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>github</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>markdown基础语法</title>
+    <link href="/2023/05/30/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/04_markdown/1.markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <url>/2023/05/30/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/04_markdown/1.markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>我曾经尝试过使用记事本来写笔记，也尝试过使用许多的编辑软件来写，像印象笔记，什么什么云笔记啊的，但是发现效果垃圾的一批，格式还要自己后来一点一点调整，最后还是决定使用markdown来写我的笔记，一趟下来高端大气上档次，逼格满满。但我在网上查找好用的markdwon编辑软件的时候，发现有人说这个玩意是程序员专用。。。。。。突然就感觉自己更爱上它了，啊哈哈哈哈哈（笑抽了。。。。）</p><p>好了好了，总结一下主要的用法，给自己以后找个可以看的笔记，偶也。。</p><hr><p><strong>最最关键的：标签后面一定要加空格，在CSDN中如果效果没出来，可能是因为没有顶着开头写</strong></p><h1 id="一、快捷键"><a href="#一、快捷键" class="headerlink" title="一、快捷键"></a>一、快捷键</h1><p>撤销： <kbd>Ctrl</kbd> +  <kbd>Z</kbd> </p><p>重做： <kbd>Ctrl</kbd> +  <kbd>Y</kbd> </p><p>加粗： <kbd>Ctrl</kbd> +  <kbd>B</kbd> </p><p>斜体： <kbd>Ctrl</kbd> +  <kbd>I</kbd> </p><p>标题： <kbd>Ctrl</kbd> +  <kbd>Shift </kbd> +  <kbd>H</kbd> </p><p>无序列表： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>U</kbd> </p><p>有序列表： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>O</kbd> </p><p>检查列表： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>C</kbd> </p><p>插入代码： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>K</kbd> </p><p>插入链接： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>L</kbd> </p><p>插入图片： <kbd>Ctrl </kbd> +  <kbd>Shift</kbd> + <kbd>G</kbd></p><h1 id="二、生成标题"><a href="#二、生成标题" class="headerlink" title="二、生成标题"></a>二、生成标题</h1><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs clean">一级标题 #<br>二级标题 ##<br>三级标题###<br>四级标题#### <br>五级标题#####<br>六级标题######<br></code></pre></td></tr></table></figure><p><strong>效果展示</strong>：</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>####### 没有七级标题。。。。。。哈哈哈</p><h1 id="三、改变字体样式"><a href="#三、改变字体样式" class="headerlink" title="三、改变字体样式"></a>三、改变字体样式</h1><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs maxima">*强调文本* <span class="hljs-symbol">_</span>强调文本<span class="hljs-symbol">_</span>斜体：前后加上一个 * 或 <span class="hljs-symbol">_</span><br><br>**加粗文本** <span class="hljs-symbol">__</span>加粗文本<span class="hljs-symbol">__</span>加粗：前后加上两个 * 或 <span class="hljs-symbol">_</span><br><br>==标记文本==高光：前后加上两个 ==<br><br>~~删除文本~~删除线：前后加上两个 ~<br><br>&gt; 引用文本<br><br>H&lt;sub&gt;<span class="hljs-number">2</span>&lt;/sub&gt;O <span class="hljs-built_in">is</span>是液体。下标：前后加上一个 &lt;sub&gt;<br><br><span class="hljs-number">2</span>&lt;sup&gt;<span class="hljs-number">10</span>&lt;/sup&gt; 运算结果是 <span class="hljs-number">1024</span>.上标：前后加上一个 &lt;sup&gt;<br></code></pre></td></tr></table></figure><p><strong>效果展示：</strong></p><p>斜体：<em>强调文本</em> <em>强调文本</em></p><p>加粗：<strong>加粗文本</strong> <strong>加粗文本</strong></p><p>高光：&#x3D;&#x3D;标记文本&#x3D;&#x3D;</p><p>删除线：<del>删除文本</del></p><blockquote><p>引用文本</p></blockquote><p>H<sub>2</sub>O is是液体。 </p><p>2<sup>10</sup> 运算结果是 1024.</p><h1 id="四、链接"><a href="#四、链接" class="headerlink" title="四、链接"></a>四、链接</h1><ol><li><p>图片链接 </p><p> <strong>基本语法：</strong> </p><p> <code>![图片名称](图片链接)</code> </p><p>  <strong>示例如下：</strong><br>  <img src="/img/default.png" alt="小姐姐"></p></li><li><p>文字链接<br><strong>基本语法：</strong><br> <code>[链接提示文本](URL)</code></p><p> <strong>示例如下：</strong><br> <a href="http://www.baidu.com/">百度</a></p></li></ol><h1 id="五、代码片"><a href="#五、代码片" class="headerlink" title="五、代码片"></a>五、代码片</h1><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arcade"><span class="hljs-string">`单行代码`</span><br></code></pre></td></tr></table></figure><p>多行代码使用三个点</p><h1 id="六、列表"><a href="#六、列表" class="headerlink" title="六、列表"></a>六、列表</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs markdown">1、无序列表<br><br><span class="hljs-bullet">-</span> 项目<br><span class="hljs-bullet">   -</span> 项目<br><span class="hljs-bullet">   -</span> 项目<br><br>2、 有序列表<br><br><span class="hljs-bullet">1.</span> 项目1<br><span class="hljs-bullet">2.</span> 项目2<br><span class="hljs-bullet">3.</span> 项目3<br><br>3、复选框<br><br><span class="hljs-bullet">-</span> [ ] 计划任务<br><span class="hljs-bullet">-</span> [x] 完成任务<br><br></code></pre></td></tr></table></figure><p><strong>效果如下：</strong><br>1、无序列表</p><ul><li>项目<ul><li>项目<br> - 项目</li></ul></li></ul><p>2、 有序列表</p><ol><li>项目1</li><li>项目2</li><li>项目3</li></ol><p>3、复选框</p><ul><li><input disabled="" type="checkbox"> 计划任务</li><li><input checked="" disabled="" type="checkbox"> 完成任务</li></ul><h1 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h1><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs elixir">使用`<span class="hljs-symbol">:---------</span><span class="hljs-symbol">:`</span>居中<br>使用`<span class="hljs-symbol">:----------`</span>居左<br>使用`----------<span class="hljs-symbol">:`</span>居右<br>| 第一列       | 第二列         | 第三列        |<br>|<span class="hljs-symbol">:-----------</span><span class="hljs-symbol">:|</span> -------------<span class="hljs-symbol">:|</span><span class="hljs-symbol">:-------------|</span><br>| 第一列文本居中 | 第二列文本居右  | 第三列文本居左 | <br></code></pre></td></tr></table></figure><p><strong>效果如下：</strong></p><table><thead><tr><th align="center">第一列</th><th align="right">第二列</th><th align="left">第三列</th></tr></thead><tbody><tr><td align="center">第一列文本居中</td><td align="right">第二列文本居右</td><td align="left">第三列文本居左</td></tr></tbody></table><h1 id="八、空白字符"><a href="#八、空白字符" class="headerlink" title="八、空白字符"></a>八、空白字符</h1><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs xml">换行      <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span><br>空格      <span class="hljs-symbol">&amp;emsp;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>markdown</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>面试宝典收藏</title>
+    <link href="/2023/05/29/02_%E8%AE%A1%E7%AE%97%E6%9C%BA/04_%E9%9D%A2%E8%AF%95/01_%E9%9D%A2%E8%AF%95%E5%86%85%E5%AE%B9/"/>
+    <url>/2023/05/29/02_%E8%AE%A1%E7%AE%97%E6%9C%BA/04_%E9%9D%A2%E8%AF%95/01_%E9%9D%A2%E8%AF%95%E5%86%85%E5%AE%B9/</url>
+    
+    <content type="html"><![CDATA[<p>工欲善其事，必先利其器。</p><p>为了能够找到一个适合的工作，我们需要看一看大厂在面试的时候主要考察的技术方向，做到心里有数。</p><p>在这里，我整理了一些面试常用的面试题，适合有事没事都来刷一刷。</p><span id="more"></span><h1 id="一、Java-面试宝典"><a href="#一、Java-面试宝典" class="headerlink" title="一、Java 面试宝典"></a>一、Java 面试宝典</h1><ol><li><a href="https://www.nowcoder.com/issue/tutorial?tutorialId=94&uuid=ea1986fcff294f6292385703e94689e8">牛客网 Java工程师面试宝典</a></li></ol><h1 id="二、c-面试题"><a href="#二、c-面试题" class="headerlink" title="二、c++ 面试题"></a>二、c++ 面试题</h1><ol><li><a href="https://www.nowcoder.com/issue/tutorial?tutorialId=93&uuid=8ba2828006dd42879f3a9029eabde9f1">牛客网 c++工程师面试宝典</a></li></ol><h1 id="三、python面试题"><a href="#三、python面试题" class="headerlink" title="三、python面试题"></a>三、python面试题</h1><ol><li><a href="">牛客网 python工程师面试宝典</a></li></ol><h1 id="四、前端面试题"><a href="#四、前端面试题" class="headerlink" title="四、前端面试题"></a>四、前端面试题</h1><ol><li><a href="https://www.nowcoder.com/issue/tutorial?tutorialId=96&uuid=f5212664ab664984882b00635066ded2">牛客网 前端工程师面试宝典</a></li></ol><h1 id="五、测试面试题"><a href="#五、测试面试题" class="headerlink" title="五、测试面试题"></a>五、测试面试题</h1><ol><li><a href="https://www.nowcoder.com/issue/tutorial?tutorialId=97&uuid=761542e6787144eb918eb8a77b961d86">牛客网 测试工程师面试宝典</a></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>面试</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>面试</tag>
+      
+      <tag>面试手册</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>C++基本语法</title>
     <link href="/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.3%20c++%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
     <url>/2023/03/13/01_%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/01_c++/1.3%20c++%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
